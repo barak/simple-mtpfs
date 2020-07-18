@@ -9,7 +9,7 @@ export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND= -Wl,--as-needed
 
 %:
-	dh $@ --parallel
+	dh $@
 
 # use --as-needed only if supported by dh-autoreconf (to simplify backporting)
 DH_AS_NEEDED=$(shell dpkg --compare-versions $$(dpkg --status dh-autoreconf | grep Version | cut -d' ' -f2) ge 6 && echo --as-needed)
