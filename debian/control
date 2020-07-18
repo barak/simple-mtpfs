@@ -2,8 +2,11 @@ Source: simple-mtpfs
 Section: utils
 Priority: optional
 Maintainer: Peter Hatina <phatina@gmail.com>
-Build-Depends: debhelper-compat (= 13), autotools-dev, libmtp-dev (>= 1.0.3), libfuse-dev
-Standards-Version: 3.9.2
+Build-Depends: debhelper-compat (= 13),
+	autoconf-archive,
+	libmtp-dev (>= 1.0.3), libfuse-dev
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Vcs-Git: https://github.com/phatina/simple-mtpfs.git
 Vcs-Browser: https://github.com/phatina/simple-mtpfs
 

@@ -1,2 +1,2 @@
-version=3
-https://github.com/downloads/phatina/simple-mtpfs/simple-mtpfs-(.+).tar.gz
+version=4
+https://github.com/phatina/@PACKAGE@/tags (?:.*?)/@PACKAGE@-@ANY_VERSION@@ARCHIVE_EXT@
