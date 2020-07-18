@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Peter Hatina <phatina@gmail.com>
 Build-Depends: debhelper-compat (= 13), autotools-dev, libmtp-dev (>= 1.0.3), libfuse-dev
 Standards-Version: 3.9.2
-Vcs-Git: git://github.com/phatina/simple-mtpfs.git
+Vcs-Git: https://github.com/phatina/simple-mtpfs.git
 Vcs-Browser: https://github.com/phatina/simple-mtpfs
 
 Package: simple-mtpfs
