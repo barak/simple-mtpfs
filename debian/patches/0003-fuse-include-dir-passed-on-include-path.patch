@@ -1,0 +1,35 @@
+From: "Barak A. Pearlmutter" <barak+git@pearlmutter.net>
+Date: Sat, 18 Jul 2020 20:12:49 +0100
+Subject: fuse include dir passed on include path
+
+---
+ src/simple-mtpfs-fuse.cpp | 2 +-
+ src/simple-mtpfs-fuse.h   | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/simple-mtpfs-fuse.cpp b/src/simple-mtpfs-fuse.cpp
+index f0de485..f842b06 100644
+--- a/src/simple-mtpfs-fuse.cpp
++++ b/src/simple-mtpfs-fuse.cpp
+@@ -19,7 +19,7 @@
+ #include <iostream>
+ extern "C" {
+ #  include <errno.h>
+-#  include <fuse/fuse_opt.h>
++#  include <fuse_opt.h>
+ #  include <unistd.h>
+ #  include <stddef.h>
+ }
+diff --git a/src/simple-mtpfs-fuse.h b/src/simple-mtpfs-fuse.h
+index b10683b..657cf12 100644
+--- a/src/simple-mtpfs-fuse.h
++++ b/src/simple-mtpfs-fuse.h
+@@ -23,7 +23,7 @@
+ #include <string>
+ #include <cstdlib>
+ extern "C" {
+-#  include <fuse/fuse.h>
++#  include <fuse.h>
+ }
+ #include "simple-mtpfs-mtp-device.h"
+ #include "simple-mtpfs-tmp-files-pool.h"

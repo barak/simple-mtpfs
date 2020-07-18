@@ -1,0 +1,25 @@
+From: "Barak A. Pearlmutter" <barak+git@pearlmutter.net>
+Date: Sat, 18 Jul 2020 20:27:55 +0100
+Subject: spelling
+
+---
+ src/simple-mtpfs-mtp-device.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/simple-mtpfs-mtp-device.cpp b/src/simple-mtpfs-mtp-device.cpp
+index 58e120a..3b80c7a 100644
+--- a/src/simple-mtpfs-mtp-device.cpp
++++ b/src/simple-mtpfs-mtp-device.cpp
+@@ -108,10 +108,10 @@ bool MTPDevice::connect_priv(int dev_no, const std::string &dev_file)
+             logerr("Encountered a Memory Allocation Error. Exiting.\n");
+             break;
+         case LIBMTP_ERROR_GENERAL:
+-            logerr("General error occured. Exiting.\n");
++            logerr("General error occurred. Exiting.\n");
+             break;
+         case LIBMTP_ERROR_USB_LAYER:
+-            logerr("USB Layer error occured. Exiting.\n");
++            logerr("USB Layer error occurred. Exiting.\n");
+             break;
+         default:
+             break;
