@@ -1,3 +1,9 @@
+simple-mtpfs (0.3.0-2) UNRELEASED; urgency=low
+
+  * Bump debhelper from deprecated 7 to 13.
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sat, 18 Jul 2020 20:13:59 -0000
+
 simple-mtpfs (0.3.0-1) unstable; urgency=low
 
   * Upgrade to 0.3.0
